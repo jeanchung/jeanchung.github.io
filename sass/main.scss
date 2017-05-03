@@ -1,6 +1,4 @@
-@import '_colors';
-@import '_fonts';
-@import '_clearfix';
-@import '_reset';
+@import "~basscss/css/basscss";
+@import '_variables';
 @import '_body';
 @import '_Navbar';

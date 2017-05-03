@@ -10,10 +10,12 @@ import Navbar from './Navbar';
 
 render(
   <Router>
-    <div>
+    <div className="site-container">
       <Navbar />
-      <Route exact path="/" component={Home} />
+      <div className="container">
+        <Route exact path="/" component={Home} />
+      </div>
     </div>
   </Router>,
-  document.getElementById('main')
+  document.getElementById('main'),
 );
