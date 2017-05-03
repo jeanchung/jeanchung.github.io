@@ -913,7 +913,25 @@ body {
 
 .project-card-container {
   background-color: yellow;
-  max-width: 52.5vw; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .project-card {
   background-color: #ffffff; }
+
+.project-card-image {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 50vh; }
+  .project-card-image img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 0;
+    -webkit-transform: none;
+            transform: none; }
+  .project-card-image:hover {
+    -webkit-filter: brightness(60%) opacity(90%);
+            filter: brightness(60%) opacity(90%); }

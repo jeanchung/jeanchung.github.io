@@ -1,3 +1,23 @@
 .project-card {
   background-color: $white;
 }
+
+.project-card-image {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 50vh;
+  img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 0;
+    transform: none;
+  }
+  // @media screen and (max-width : $breakpoint-medium) {
+  //   // height: 30vh;
+  // }
+  &:hover {
+    filter: brightness(60%) opacity(90%);
+  }
+}

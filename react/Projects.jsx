@@ -4,12 +4,10 @@ import ProjectCard from './ProjectCard';
 import projects from '../projectData';
 
 const Projects = props => (
-  <div>
+  <div className="projects-section">
     <h3 className="h2 section-title">Projects</h3>
     <div className="project-card-container">
-      <div className="clearfix mxn2">
-        {projects.map(project => <ProjectCard {...project} key={project.title} />)}
-      </div>
+      {projects.map(project => <ProjectCard {...project} key={project.title} />)}
     </div>
   </div>
 );
