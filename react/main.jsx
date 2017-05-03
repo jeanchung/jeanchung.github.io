@@ -2,19 +2,17 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { render } from 'react-dom';
 
-import '../sass/main.scss';
+import '../assets/sass/main.scss';
 
 // Components
-import Home from './Home';
 import Navbar from './Navbar';
+import Home from './Home';
 
 render(
   <Router>
     <div className="site-container">
       <Navbar />
-      <div className="container">
-        <Route exact path="/" component={Home} />
-      </div>
+      <Route exact path="/" component={Home} />
     </div>
   </Router>,
   document.getElementById('main'),

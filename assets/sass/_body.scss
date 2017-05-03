@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $primaryFont, sans-serif;
+}
+
+.site-container {
+  background-color: $off-white;
+}
+
+.container {
+  margin: 0 auto;
+  width: $page-width;
+  max-width: $max-page-width;
+  padding-top: $navbar-height;
+}
+
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+}

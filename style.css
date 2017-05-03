@@ -849,9 +849,13 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 85vw;
-  max-width: 70rem;
+  width: 75vw;
+  max-width: 65rem;
   padding-top: 80px; }
+
+.section-title {
+  text-transform: uppercase;
+  text-align: center; }
 
 .navbar {
   position: fixed;
@@ -872,8 +876,8 @@ body {
       color: #3D9499; }
 
 .navbar-container {
-  width: 85vw;
-  max-width: 70rem;
+  width: 75vw;
+  max-width: 65rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -888,11 +892,11 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.navbar-menu-right {
+.navbar-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  .navbar-menu-right ul {
+  .navbar-menu ul {
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -901,8 +905,15 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row; }
-  .navbar-menu-right li {
+  .navbar-menu li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-left: 1.3em; }
+
+.project-card-container {
+  background-color: yellow;
+  max-width: 52.5vw; }
+
+.project-card {
+  background-color: #ffffff; }
