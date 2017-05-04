@@ -3,13 +3,17 @@ import About from './About';
 import Projects from './Projects';
 
 const Home = props => (
-  <div className="container" id="top">
-    <div className="page-header">
-      <h2 className="page-title">Hello, World!</h2>
+  <div id="top">
+    <div id="about-section">
+      <div className="section-container first-section">
+        <About />
+      </div>
     </div>
-
-    <About />
-    <Projects />
+    <div id="projects-section">
+      <div className="section-container">
+        <Projects />
+      </div>
+    </div>
   </div>
 );
 

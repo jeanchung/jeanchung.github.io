@@ -11,14 +11,25 @@ body {
   background-color: $off-white;
 }
 
-.container {
+.section-container {
   margin: 0 auto;
   width: $page-width;
   max-width: $max-page-width;
+}
+
+.first-section {
   padding-top: $navbar-height;
 }
 
 .section-title {
-  text-transform: uppercase;
+  // text-transform: uppercase;
   text-align: center;
+}
+
+.white {
+  color: $white;
+}
+
+.blue {
+  color: $dark-blue;
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 
 const About = props => (
-  <div>
-    <h3 className="h2 section-title">About</h3>
+  <div id="about">
+    <h3 className="h2 section-title dark-blue">About</h3>
     <p>I&#39;m Jean Chung, a fullstack web developer in Chicago.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet vulputate urna.
       Phasellus et mauris a lacus congue molestie. Morbi tristique scelerisque lobortis.
