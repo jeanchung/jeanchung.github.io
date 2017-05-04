@@ -1,5 +1,7 @@
 .project-card-container {
-  background-color: yellow;
+  background-color: $light-gray;
   display: flex;
+  // max-width: 80vw;
+  // justify-content: space-around;
   // max-width: $page-width * 0.7;
 }
