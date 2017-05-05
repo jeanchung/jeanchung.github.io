@@ -41,11 +41,12 @@
     "eslint-plugin-react": "^6.10.3",
     "express": "^4.15.2",
     "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
     "node-sass": "^4.5.2",
     "postcss-loader": "^1.3.3",
     "prop-types": "^15.5.8",
     "react-router-dom": "^4.1.1",
-    "react-scrollchor": "^2.2.0",
+    "react-scrollchor": "^3.0.0",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.17.0",
     "webpack": "^2.4.1"

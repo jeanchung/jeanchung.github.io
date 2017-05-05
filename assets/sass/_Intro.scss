@@ -1,0 +1,41 @@
+#intro-section {
+  background-color: $dark-blue;
+  // background-image: url("../images/jejudo.jpg");
+  color: $white;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 0;
+
+  h3 {
+    margin-bottom: 0;
+    font-size: 2.6em;
+  }
+  h4 {
+    margin-bottom: 0;
+    font-size: 1.8em;
+  }
+}
+
+#headshot {
+  max-width: 18em;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 100%;
+
+  .aspect-ratio {
+    width: 100%;
+    padding-top: 100%;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}

@@ -6,12 +6,12 @@ module.exports = {
   entry: './react/main.jsx',
   output: {
     path: __dirname,
-    filename: './index.js'
+    filename: './index.js',
   },
   context: __dirname,
   devtool: 'source-map',
   resolve: {
-    extensions: ['.js', '.jsx', '.json', '*']
+    extensions: ['.js', '.jsx', '.json', '*'],
   },
   module: {
     rules: [
@@ -21,9 +21,9 @@ module.exports = {
         use: [{
           loader: 'babel-loader',
           options: {
-            presets: ['react', 'es2015', 'stage-2']
-          }
-        }]
+            presets: ['react', 'es2015', 'stage-2'],
+          },
+        }],
       }, {
         test: /\.s?css$/,
         use: ExtractTextPlugin.extract({
@@ -32,27 +32,30 @@ module.exports = {
             {
               loader: 'css-loader',
               options: {
-                importLoaders: 1
-              }
+                importLoaders: 1,
+              },
             },
             {
               loader: 'postcss-loader',
               options: {
                 plugins: [
-                  autoprefixer
-                ]
-              }
+                  autoprefixer,
+                ],
+              },
             },
-            'sass-loader'
-          ]
-        })
-      }
-    ]
+            'sass-loader',
+          ],
+        }),
+      }, {
+        test: /\.(jpe?g|gif|png)$/,
+        loader: 'file-loader?emitFile=false&name=[path][name].[ext]',
+      },
+    ],
   },
   plugins: [
     new ExtractTextPlugin({
       filename: 'style.css',
-      allChunks: true
-    })
-  ]
+      allChunks: true,
+    }),
+  ],
 };
