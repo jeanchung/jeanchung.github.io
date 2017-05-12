@@ -7,13 +7,13 @@
   justify-content: center;
   background-color: $white;
   z-index: 1000;
-  
+
   a {
     color: $navbar-links;
     text-decoration: none;
 
     &:hover {
-      color: $dark-blue;
+      color: $light-blue;
     }
   }
 }

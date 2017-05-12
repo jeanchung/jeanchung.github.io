@@ -1,8 +1,15 @@
-#projects-section {
+.projects-section {
+  background-color: $blue;
+}
+
+#projects {
+  padding-top: $navbar-height;
+}
+
+.projects-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $dark-blue;
 }
 
 .project-card-container {

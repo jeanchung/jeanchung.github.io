@@ -10,6 +10,16 @@ html {
 body {
   margin: 0;
   font-family: $primaryFont, sans-serif;
+  color: $charcoal;
+
+  a {
+    text-decoration: none;
+    color: $green;
+
+    &:hover {
+      color: $light-green;
+    }
+  }
 }
 
 .site-container {
@@ -20,15 +30,17 @@ body {
   margin: 0 auto;
   width: $page-width;
   max-width: $max-page-width;
-}
-
-.first-section {
-  padding-top: $navbar-height;
+  padding-bottom: 3em;
 }
 
 .section-title {
-  // text-transform: uppercase;
   text-align: center;
+  font-size: 2.6em;
+  margin-top: 0;
+}
+
+.section-subtitle {
+  font-size: 1.6em;
 }
 
 .white {
@@ -36,5 +48,5 @@ body {
 }
 
 .blue {
-  color: $dark-blue;
+  color: $blue;
 }

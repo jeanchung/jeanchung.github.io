@@ -3,12 +3,11 @@ import React from 'react';
 const Intro = props => (
   <div id="intro">
     <div className="intro-content">
-      <div id="headshot">
+      <div className="headshot">
         <div className="aspect-ratio" />
         <img src="../assets/images/jean.jpg" alt="Jean" />
       </div>
-      <h3 className="center">Jean Chung</h3>
-      <h4 className="center">Software Developer</h4>
+      <h4 className="section-subtitle center">I&#39;m Jean Chung, a software developer in Chicago.</h4>
     </div>
   </div>
 );

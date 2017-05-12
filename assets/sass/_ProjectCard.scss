@@ -2,12 +2,13 @@
   background-color: $white;
   display: block;
   // flex: auto;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .project-card-image {
   position: relative;
   overflow: hidden;
+
   img {
     border-bottom: 1px solid $lightest-gray;
     display: block;
@@ -16,6 +17,10 @@
     width: 100%;
     height: auto;
     transform: none;
+
+    &:hover {
+      filter: opacity(85%) brightness(97%);
+    }
   }
   // @media screen and (max-width : $breakpoint-medium) {
   //   // height: 30vh;
@@ -24,10 +29,13 @@
 
 .project-card-text {
   padding: 1.4em;
-  color: $gray;
+  color: $charcoal;
+  height: 11em;
 
   h4 {
     margin: 0;
     color: black;
+    font-size: 1.5em;
+    font-weight: bold;
   }
 }

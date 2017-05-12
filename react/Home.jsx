@@ -5,17 +5,17 @@ import Projects from './Projects';
 
 const Home = props => (
   <div id="top">
-    <div id="intro-section">
-      <div className="section-container first-section">
+    <div className="intro-section">
+      <div className="section-container">
         <Intro />
       </div>
     </div>
-    <div id="about-section">
+    <div className="about-section">
       <div className="section-container">
         <About />
       </div>
     </div>
-    <div id="projects-section">
+    <div className="projects-section">
       <div className="section-container">
         <Projects />
       </div>
