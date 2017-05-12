@@ -5,7 +5,7 @@
 }
 
 .projects-section {
-  background-color: $blue;
+  background-color: $blue-gray;
   padding-top: 3em;
 }
 
@@ -18,7 +18,7 @@
 .project-card-container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 50em;
+  max-width: 45em;
   align-content: stretch;
   // background-color: $light-gray;
   // justify-content: space-around;

@@ -877,6 +877,9 @@ body {
 .blue {
   color: #46a5d4; }
 
+.green {
+  color: #26c4a5; }
+
 .navbar {
   position: fixed;
   top: 0;
@@ -997,7 +1000,7 @@ body {
   bottom: 100%; }
 
 .projects-section {
-  background-color: #46a5d4;
+  background-color: #353a4a;
   padding-top: 3em; }
 
 .projects-container {
@@ -1018,7 +1021,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 50em;
+  max-width: 45em;
   -ms-flex-line-pack: stretch;
       align-content: stretch; }
 
@@ -1029,7 +1032,11 @@ body {
 
 .project-card-image {
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0; }
   .project-card-image img {
     border-bottom: 1px solid #dfdfdf;
     display: block;
@@ -1052,3 +1059,53 @@ body {
     color: black;
     font-size: 1.5em;
     font-weight: 700; }
+
+.project-modal-container {
+  padding: 0.5em 1em; }
+
+.project-modal-content {
+  padding: 0.5em 0 0 0; }
+
+.video {
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+h3 {
+  margin: 0 0 0.6em 0; }
+
+.project-modal-image {
+  position: relative;
+  overflow: hidden;
+  background: none;
+  border: none;
+  padding: 0; }
+  .project-modal-image img {
+    border-bottom: 1px solid #dfdfdf;
+    display: block;
+    -o-object-fit: contain;
+       object-fit: contain;
+    top: 0;
+    width: 100%;
+    height: auto;
+    -webkit-transform: none;
+            transform: none; }
+
+.btn-modal-close {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: gray;
+  font-weight: 100;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 2em;
+  float: right;
+  z-index: 100; }

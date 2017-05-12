@@ -1,11 +1,12 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
 
-const ProjectCard = ({ title, summary, img }) => (
-  <div className="md-col md-col-6 p3">
+const ProjectCard = ({ title, summary, img, openModal }) => (
+  <div className="md-col md-col-6 p2">
     <div className="project-card">
-      <a href="#" className="project-card-image">
+      <button onClick={openModal} className="project-card-image">
         <img src={img} />
-      </a>
+      </button>
       <div className="project-card-text">
         <h4 className="h3 center">{title}</h4>
         <p>{summary}</p>

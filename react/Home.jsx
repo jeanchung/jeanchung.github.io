@@ -3,7 +3,7 @@ import Intro from './Intro';
 import About from './About';
 import Projects from './Projects';
 
-const Home = props => (
+const Home = ({ openModal }) => (
   <div id="top">
     <div className="intro-section">
       <div className="section-container">
@@ -19,7 +19,7 @@ const Home = props => (
     <div className="projects-section">
       <div id="projects" />
       <div className="section-container">
-        <Projects />
+        <Projects openModal={openModal} />
       </div>
     </div>
   </div>

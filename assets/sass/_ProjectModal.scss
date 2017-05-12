@@ -1,0 +1,60 @@
+.project-modal-container {
+  padding: 0.5em 1em;
+
+}
+
+.project-modal-content {
+  padding: 0.5em 0 0 0;
+}
+
+.video {
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+
+  iframe {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  }
+}
+
+h3 {
+  margin: 0 0 0.6em 0;
+}
+
+.project-modal-description {
+  // padding-top: 1.3em;
+}
+
+.project-modal-image {
+  position: relative;
+  overflow: hidden;
+  background: none;
+  border: none;
+  padding: 0;
+
+  img {
+    border-bottom: 1px solid $lightest-gray;
+    display: block;
+    object-fit: contain;
+    top: 0;
+    width: 100%;
+    height: auto;
+    transform: none;
+  }
+}
+
+.btn-modal-close {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: gray;
+  font-weight: 100;
+  align-self: flex-end;
+  font-size: 2em;
+  float: right;
+  z-index: 100;
+}

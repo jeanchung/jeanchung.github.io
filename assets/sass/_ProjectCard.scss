@@ -7,6 +7,10 @@
 .project-card-image {
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
 
   img {
     border-bottom: 1px solid $lightest-gray;
