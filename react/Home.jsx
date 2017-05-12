@@ -11,11 +11,13 @@ const Home = props => (
       </div>
     </div>
     <div className="about-section">
+      <div id="about" />
       <div className="section-container">
         <About />
       </div>
     </div>
     <div className="projects-section">
+      <div id="projects" />
       <div className="section-container">
         <Projects />
       </div>

@@ -1,9 +1,12 @@
-.projects-section {
-  background-color: $blue;
+#projects {
+  height: $navbar-height;
+  position: absolute;
+  bottom: 100%;
 }
 
-#projects {
-  padding-top: $navbar-height;
+.projects-section {
+  background-color: $blue;
+  padding-top: 3em;
 }
 
 .projects-container {
