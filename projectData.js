@@ -24,7 +24,7 @@ module.exports = [
   },
   {
     title: 'Skylight',
-    summary: 'Glassdoor clone for tracking pay equity. Built With React, Redux, and Firebase.',
+    summary: 'Glassdoor clone for tracking pay equity. Built with React, Redux, and Firebase.',
     description: 'Skylight is a web app that allows you to upload your salary information and see how your salary stacks up against others in similar positions, filtered by race and gender. Built using React, Redux, and Firebase.',
     img: './assets/images/skylight.png',
   },

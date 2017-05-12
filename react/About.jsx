@@ -5,7 +5,7 @@ const About = props => (
     <h3 className="h2 section-title blue">About</h3>
     <div className="about-content">
       <div className="about-text">
-        <p><strong>I love solving problems.</strong></p>
+        <p>I love solving problems.</p>
         <p>After graduating from college, I spent four years in Washington, D.C. working on a
           problem I care about very much: our nation&#39;s
           broken <a href="http://www.sentencingproject.org/">criminal justice system</a>.</p>

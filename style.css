@@ -1018,12 +1018,14 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 50em; }
+  max-width: 50em;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch; }
 
 .project-card {
   background-color: #ffffff;
   display: block;
-  margin-bottom: 2em; }
+  height: 100%; }
 
 .project-card-image {
   position: relative;
@@ -1044,10 +1046,9 @@ body {
 
 .project-card-text {
   padding: 1.4em;
-  color: #525252;
-  height: 11em; }
+  color: #525252; }
   .project-card-text h4 {
     margin: 0;
     color: black;
     font-size: 1.5em;
-    font-weight: bold; }
+    font-weight: 700; }

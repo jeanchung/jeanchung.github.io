@@ -1,8 +1,7 @@
 .project-card {
   background-color: $white;
   display: block;
-  // flex: auto;
-  margin-bottom: 2em;
+  height: 100%;
 }
 
 .project-card-image {
@@ -30,12 +29,11 @@
 .project-card-text {
   padding: 1.4em;
   color: $charcoal;
-  height: 11em;
 
   h4 {
     margin: 0;
     color: black;
     font-size: 1.5em;
-    font-weight: bold;
+    font-weight: 700;
   }
 }
