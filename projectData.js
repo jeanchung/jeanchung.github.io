@@ -5,7 +5,7 @@ module.exports = [
     summary: 'Hide digital messages for your friends at specific locations. Built with Node, Express, PostgreSQL, React Native, and Redux.',
     description: `Hatch is a location-based mobile messaging app. Users leave "eggs," or messages, for their
     friends at specific locations. A message can only be read when the recipient has
-    entered the egg's geofence. Hatch uses the Facebook SDK to connect users with their Facebook
+    entered the egg's geofence. Hatch uses the Graph API to connect users with their Facebook
     friends.`,
     img: './assets/images/hatch2.png',
     videoEmbedUrl: 'https://www.youtube.com/embed/Pr-kJYZh9js',

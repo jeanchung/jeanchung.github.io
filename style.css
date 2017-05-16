@@ -854,6 +854,11 @@ body {
     body a:hover {
       color: rgba(38, 196, 165, 0.64); }
 
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer; }
+
 .site-container {
   background-color: #f4f7f9; }
 
@@ -928,6 +933,45 @@ body {
     display: -ms-flexbox;
     display: flex;
     margin-left: 1.3em; }
+
+.nav-toggle {
+  display: none; }
+
+.toggle-nav-btn {
+  font-size: 1.2em;
+  color: #46a5d4; }
+
+@media screen and (max-width: 30em) {
+  .navbar {
+    border-bottom: 0.1em solid #46a5d4; }
+  .navbar-menu {
+    position: relative;
+    display: inline-block;
+    font-size: 1.4em; }
+    .navbar-menu .navbar-menu-container {
+      position: fixed;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background-color: #ffffff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    .navbar-menu ul {
+      width: 75vw;
+      display: block;
+      padding: 0.5em 0; }
+    .navbar-menu li {
+      margin: 0.4em 0;
+      float: none;
+      display: block; }
+    .navbar-menu i {
+      display: block; }
+  .nav-toggle {
+    display: block; } }
 
 .section-container {
   margin: 0 auto;
@@ -1129,9 +1173,6 @@ body {
   padding: 1em 0; }
 
 .btn-modal-close {
-  cursor: pointer;
-  background: none;
-  border: none;
   color: gray;
   font-weight: 100;
   -ms-flex-item-align: end;
@@ -1179,7 +1220,7 @@ body {
   .contact-content a {
     color: #353a4a; }
     .contact-content a:hover {
-      color: #ffffff; }
+      color: rgba(42, 49, 71, 0.8); }
 
 .social-links {
   display: -webkit-box;
@@ -1203,3 +1244,27 @@ body {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     width: 100%; }
+
+.footer {
+  width: 100%;
+  height: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff; }
+
+.footer-container {
+  width: 75vw;
+  max-width: 65rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }

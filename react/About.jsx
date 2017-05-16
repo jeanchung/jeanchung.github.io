@@ -10,8 +10,8 @@ const About = props => (
           problem I care about very much: our nation&#39;s
           broken <a href="http://www.sentencingproject.org/">criminal justice system</a>.</p>
         <p>
-          During that time, I began teaching myself to code in my spare time, attending free classes offered
-          by <a href="https://hearmecode.com/">Hear Me Code</a>, working through Project Euler
+          During that time, I began teaching myself to code in my spare time, attending free Python classes
+          offered by <a href="https://hearmecode.com/">Hear Me Code</a>, working through Project Euler
           problems, and completing MIT&#39;s introductory computer science course.
         </p>
         <p>It wasn&#39;t long before I knew: I wanted to solve problems with code.</p>

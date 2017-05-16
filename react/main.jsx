@@ -9,6 +9,7 @@ import '../assets/sass/main.scss';
 import Navbar from './Navbar';
 import Home from './Home';
 import ProjectModal from './ProjectModal';
+import Footer from './Footer';
 
 const openModal = (projectKey) => {
   ModalManager.open(<ProjectModal projectKey={projectKey} onRequestClose={() => true} />);
@@ -21,6 +22,7 @@ const App = props => (
     <div className="site-container">
       <Navbar />
       <Route exact path="/" render={HomeWithProps} />
+      <Footer />
     </div>
   </Router>
     );

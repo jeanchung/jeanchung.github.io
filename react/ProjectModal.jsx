@@ -45,7 +45,7 @@ const ProjectModal = ({ projectKey, onRequestClose }) => {
       effect={Effect.ScaleUp}
       style={modalStyles}
     >
-      <button className="btn-modal-close" onClick={ModalManager.close}>X</button>
+      <button className="btn btn-modal-close" onClick={ModalManager.close}>X</button>
       <div className="project-modal-container">
         <div className="project-modal-content">
           <h3 className="h2 center green">{title}</h3>
