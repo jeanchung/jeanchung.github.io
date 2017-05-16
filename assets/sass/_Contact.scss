@@ -1,0 +1,40 @@
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em 0;
+  color: $white;
+  font-size: 1.5em;
+  text-align: center;
+
+  i {
+    font-size: 2em;
+  }
+
+  a {
+    color: $blue-gray-dark;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 14em;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+
+}

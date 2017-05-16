@@ -13,6 +13,7 @@ const Navbar = props => (
           <ul className="list-reset">
             <li><Scrollchor to="#about">About</Scrollchor></li>
             <li><Scrollchor to="#projects">Projects</Scrollchor></li>
+            <li><Scrollchor to="#contact">Contact</Scrollchor></li>
           </ul>
         </div>
       </div>

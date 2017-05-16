@@ -2,6 +2,7 @@ import React from 'react';
 import Intro from './Intro';
 import About from './About';
 import Projects from './Projects';
+import Contact from './Contact';
 
 const Home = ({ openModal }) => (
   <div id="top">
@@ -20,6 +21,12 @@ const Home = ({ openModal }) => (
       <div id="projects" />
       <div className="section-container">
         <Projects openModal={openModal} />
+      </div>
+    </div>
+    <div className="section-four">
+      <div id="contact" />
+      <div className="section-container">
+        <Contact />
       </div>
     </div>
   </div>
