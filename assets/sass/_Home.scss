@@ -1,0 +1,20 @@
+.section-container {
+  margin: 0 auto;
+  width: $page-width;
+  max-width: $max-page-width;
+  padding-bottom: 3em;
+}
+
+.section-one {
+  background-color: $blue;
+  color: $white;
+}
+
+.section-two {
+  padding-top: 3em;
+}
+
+.section-three {
+  background-color: $blue-gray;
+  padding-top: 3em;
+}

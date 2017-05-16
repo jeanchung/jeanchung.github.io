@@ -9,6 +9,7 @@ module.exports = [
     friends.`,
     img: './assets/images/hatch2.png',
     videoEmbedUrl: 'https://www.youtube.com/embed/Pr-kJYZh9js',
+    githubUrl: 'https://github.com/AceNorth/Hatch',
   },
   {
     key: 'rawr',
@@ -16,6 +17,7 @@ module.exports = [
     summary: 'Record audio, share with friends, and create soundboards. Built with React Native, Redux, and Firebase.',
     description: 'Rawr is a mobile app that allows users to record audio to share with friends and create soundboards using sound clips from their friends.',
     img: './assets/images/rawr.png',
+    githubUrl: 'https://github.com/jeanchung/rawr',
   },
   {
     key: 'chicagodart',
@@ -26,6 +28,7 @@ module.exports = [
     the community impact of non-profit organizations through pro bono digital strategy and custom
     software design and development.`,
     img: './assets/images/dart.png',
+    githubUrl: 'https://github.com/chicagodart/chicagodart-theme',
   },
   {
     key: 'skylight',
@@ -34,6 +37,7 @@ module.exports = [
     description: 'Skylight is a web app that allows users to upload your salary information and see how their salary stacks up against others in similar positions, filtered by race and gender. Built using React, Redux, and Firebase.',
     img: './assets/images/skylight.png',
     videoEmbedUrl: 'https://www.youtube.com/embed/q5m0YSNBsXo',
+    githubUrl: 'https://github.com/jeanchung/skylight',
   },
 
 ];

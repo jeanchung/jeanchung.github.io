@@ -38,7 +38,7 @@ const modalStyles = {
 };
 
 const ProjectModal = ({ projectKey, onRequestClose }) => {
-  const { title, description, img, videoEmbedUrl } = projects[projectKey];
+  const { title, description, img, videoEmbedUrl, githubUrl } = projects[projectKey];
   return (
     <Modal
       onRequestClose={onRequestClose}
@@ -70,7 +70,9 @@ const ProjectModal = ({ projectKey, onRequestClose }) => {
         </div>
       </div>
       <div className="project-modal-footer">
-        <i className="fa fa-github" aria-hidden="true" />
+        <a href={githubUrl}>
+          <i className="fa fa-github" aria-hidden="true" />
+        </a>
       </div>
     </Modal>
   );
