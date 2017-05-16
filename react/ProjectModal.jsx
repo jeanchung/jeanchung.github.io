@@ -22,15 +22,18 @@ const modalStyles = {
 
   content: {
     position: 'relative',
-    width: '90vw',
-    maxWidth: '40em',
+    width: '95vw',
+    maxWidth: '30em',
     height: '90vh',
     border: '1px solid rgba(0, 0, 0, .2)',
     background: '#fff',
-    overflow: 'auto',
+    overflow: 'scroll',
     borderRadius: '4px',
     outline: 'none',
     boxShadow: '0 5px 10px rgba(0, 0, 0, .3)',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'stretch',
   },
 };
 
@@ -42,8 +45,8 @@ const ProjectModal = ({ projectKey, onRequestClose }) => {
       effect={Effect.ScaleUp}
       style={modalStyles}
     >
+      <button className="btn-modal-close" onClick={ModalManager.close}>X</button>
       <div className="project-modal-container">
-        <button className="btn-modal-close" onClick={ModalManager.close}>X</button>
         <div className="project-modal-content">
           <h3 className="h2 center green">{title}</h3>
           {
@@ -61,7 +64,9 @@ const ProjectModal = ({ projectKey, onRequestClose }) => {
                <img src={img} />
              </div>
            }
-          <p className="project-modal-description">{description}</p>
+          <div className="project-modal-description">
+            <p>{description}</p>
+          </div>
         </div>
       </div>
       <div className="project-modal-footer">

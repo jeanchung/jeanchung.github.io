@@ -21,7 +21,10 @@ module.exports = [
     key: 'chicagodart',
     title: 'Chicago D(ART)',
     summary: 'Website for Chicago\'s first deaf theatre company. Built with Wordpress, React, and Redux.',
-    description: 'Built during the Nerdery\'s <a href="http://chi2017.overnightwebsitechallenge.com/">Overnight Website Challenge.</a>',
+    description: `Website built for Chicago D(ART), a deaf theatre company. For maximum accessibility,
+    the site features large font toggling, high-contrast toggling, and skip navigation. Built during a 24-hour hackathon aimed at maximizing
+    the community impact of non-profit organizations through pro bono digital strategy and custom
+    software design and development.`,
     img: './assets/images/dart.png',
   },
   {
