@@ -11,12 +11,12 @@ const About = props => (
           broken <a href="http://www.sentencingproject.org/">criminal justice system</a>.</p>
         <p>
           During that time, I began teaching myself to code in my spare time, attending free Python classes
-          offered by <a href="https://hearmecode.com/">Hear Me Code</a>, working through Project Euler
+          offered by <a href="http://hearmecode.com/">Hear Me Code</a>, working through Project Euler
           problems, and completing MIT&#39;s introductory computer science course.
         </p>
         <p>It wasn&#39;t long before I knew: I wanted to solve problems with code.</p>
         <p>
-          In 2016, I attended <a href="fullstackacademy.com">Fullstack Academy&#39;s</a> software
+          In 2016, I attended <a href="http://fullstackacademy.com">Fullstack Academy&#39;s</a> software
             engineering immersive, and today, I&#39;m a full stack software developer.
         </p>
       </div>
