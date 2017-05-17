@@ -1,3 +1,15 @@
+.project-card-container {
+  padding: 1em;
+
+  @media screen and (max-width : $breakpoint-medium) {
+    padding: 0.7em;
+  }
+
+  @media screen and (max-width : $breakpoint-small) {
+    padding: 1em 0;
+  }
+}
+
 .project-card {
   background-color: $white;
   display: block;
@@ -25,9 +37,7 @@
       filter: opacity(85%) brightness(97%);
     }
   }
-  // @media screen and (max-width : $breakpoint-medium) {
-  //   // height: 30vh;
-  // }
+
 }
 
 .project-card-text {

@@ -861,11 +861,15 @@ body {
 
 .site-container {
   background-color: #f4f7f9;
-  transition: all 195ms cubic-bezier(0.4, 0, 1, 1); }
+  padding: 1em 0; }
+  @media screen and (max-width: 40em) {
+    .site-container {
+      transition: all 195ms cubic-bezier(0.4, 0, 1, 1); } }
 
-.navbar-open {
-  padding-top: 8rem;
-  transition: all 225ms cubic-bezier(0, 0, 0.2, 1); }
+@media screen and (max-width: 40em) {
+  .navbar-open {
+    padding-top: 8rem;
+    transition: all 225ms cubic-bezier(0, 0, 0.2, 1); } }
 
 .section-title {
   text-align: center;
@@ -944,9 +948,10 @@ body {
 
 .toggle-nav-btn {
   font-size: 1.2em;
-  color: #46a5d4; }
+  color: #46a5d4;
+  padding: 0; }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 40em) {
   .navbar-menu {
     position: fixed;
     display: inline-block;
@@ -1017,7 +1022,7 @@ body {
 #intro {
   padding-top: 4rem; }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 40em) {
   .anchor {
     height: 12rem; } }
 
@@ -1086,6 +1091,15 @@ body {
   max-width: 45em;
   -ms-flex-line-pack: stretch;
       align-content: stretch; }
+
+.project-card-container {
+  padding: 1em; }
+  @media screen and (max-width: 52em) {
+    .project-card-container {
+      padding: 0.7em; } }
+  @media screen and (max-width: 40em) {
+    .project-card-container {
+      padding: 1em 0; } }
 
 .project-card {
   background-color: #ffffff;
