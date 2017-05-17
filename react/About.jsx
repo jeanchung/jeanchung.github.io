@@ -12,7 +12,7 @@ const About = props => (
         <p>
           During that time, I began teaching myself to code in my spare time, attending free Python classes
           offered by <a href="http://hearmecode.com/">Hear Me Code</a>, working through Project Euler
-          problems, and completing MIT&#39;s introductory computer science course.
+          problems, and completing an online MIT computer science course.
         </p>
         <p>It wasn&#39;t long before I knew: I wanted to solve problems with code.</p>
         <p>
