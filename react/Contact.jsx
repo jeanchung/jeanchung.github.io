@@ -5,7 +5,7 @@ const Contact = props => (
     <h3 className="h2 section-title white">Contact</h3>
     <div className="contact-content">
       <div>
-        <p>Email me at <a href="mailto:hello@jeanchung.io">
+        <p>Email me at <a href="mailto:jc@jeanchung.io">
           {/* <i className="fa fa-envelope" aria-hidden="true" /> */}
           jc@jeanchung.io
         </a>

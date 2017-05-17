@@ -5,26 +5,26 @@ import Projects from './Projects';
 import Contact from './Contact';
 
 const Home = ({ openModal }) => (
-  <div id="top">
+  <div>
     <div className="section-one">
       <div className="section-container">
         <Intro />
       </div>
     </div>
     <div className="section-two">
-      <div id="about" />
+      <div id="about" className="anchor" />
       <div className="section-container">
         <About />
       </div>
     </div>
     <div className="section-three">
-      <div id="projects" />
+      <div id="projects" className="anchor" />
       <div className="section-container">
         <Projects openModal={openModal} />
       </div>
     </div>
     <div className="section-four">
-      <div id="contact" />
+      <div id="contact" className="anchor" />
       <div className="section-container">
         <Contact />
       </div>

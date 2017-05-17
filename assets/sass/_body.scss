@@ -30,6 +30,12 @@ body {
 
 .site-container {
   background-color: $off-white;
+  transition: all 195ms cubic-bezier(0.4, 0.0, 1, 1);
+}
+
+.navbar-open {
+  padding-top: $mobile-nav-menu-height;
+  transition: all 225ms cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
 .section-title {

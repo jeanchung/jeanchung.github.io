@@ -23,3 +23,20 @@
   padding-top: 3em;
   background-color: $blue;
 }
+
+.anchor {
+  height: $navbar-height;
+  position: absolute;
+  bottom: 100%;
+}
+
+#intro {
+  padding-top: $navbar-height;
+}
+
+@media screen and (max-width : $breakpoint-small) {
+  .anchor {
+    height: $navbar-height + $mobile-nav-menu-height;
+  }
+
+}

@@ -17,15 +17,32 @@ const openModal = (projectKey) => {
 
 const HomeWithProps = props => (<Home openModal={openModal} {...props} />);
 
-const App = props => (
-  <Router>
-    <div className="site-container">
-      <Navbar />
-      <Route exact path="/" render={HomeWithProps} />
-      <Footer />
-    </div>
-  </Router>
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      mobileMenuOpen: false,
+    };
+    this.toggleMobileMenu = this.toggleMobileMenu.bind(this);
+  }
+
+  toggleMobileMenu() {
+    this.setState({ mobileMenuOpen: !this.state.mobileMenuOpen });
+  }
+
+  render() {
+    return (
+      <Router>
+        <div id="top" className={`site-container${this.state.mobileMenuOpen ? ' navbar-open' : ''}`}>
+          <Navbar toggleMobileMenu={this.toggleMobileMenu} mobileMenuOpen={this.state.mobileMenuOpen} />
+          <Route exact path="/" render={HomeWithProps} />
+          <Footer />
+        </div>
+      </Router>
     );
+  }
+}
+
 
 render(
   <App />,
