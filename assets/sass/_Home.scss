@@ -1,0 +1,42 @@
+.section-container {
+  margin: 0 auto;
+  width: $page-width;
+  max-width: $max-page-width;
+  padding-bottom: 3em;
+}
+
+.section-one {
+  background-color: $blue;
+  color: $white;
+}
+
+.section-two {
+  padding-top: 3em;
+}
+
+.section-three {
+  background-color: $blue-gray;
+  padding-top: 3em;
+}
+
+.section-four {
+  padding-top: 3em;
+  background-color: $blue;
+}
+
+.anchor {
+  height: $navbar-height;
+  position: absolute;
+  bottom: 100%;
+}
+
+#intro {
+  padding-top: $navbar-height;
+}
+
+@media screen and (max-width : $breakpoint-small) {
+  .anchor {
+    height: $navbar-height + $mobile-nav-menu-height;
+  }
+
+}

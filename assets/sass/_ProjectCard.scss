@@ -1,0 +1,53 @@
+.project-card-container {
+  padding: 1em;
+
+  @media screen and (max-width : $breakpoint-medium) {
+    padding: 0.7em;
+  }
+
+  @media screen and (max-width : $breakpoint-small) {
+    padding: 1em 0;
+  }
+}
+
+.project-card {
+  background-color: $white;
+  display: block;
+  height: 100%;
+}
+
+.project-card-image {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+
+  img {
+    border-bottom: 1px solid $lightest-gray;
+    display: block;
+    object-fit: contain;
+    top: 0;
+    width: 100%;
+    height: auto;
+    transform: none;
+
+    &:hover {
+      filter: opacity(85%) brightness(97%);
+    }
+  }
+
+}
+
+.project-card-text {
+  padding: 1.4em;
+  color: $charcoal;
+
+  h4 {
+    margin: 0;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+}

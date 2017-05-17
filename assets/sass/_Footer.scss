@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+  height: $navbar-height * .8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+}
+
+.footer-container {
+  width: $page-width;
+  max-width: $max-page-width;
+  display: flex;
+  justify-content: center;
+}

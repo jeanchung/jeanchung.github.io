@@ -1,0 +1,27 @@
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4em;
+}
+
+.headshot {
+  max-width: 18em;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 2em;
+
+  .aspect-ratio {
+    width: 100%;
+    padding-top: 100%;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}

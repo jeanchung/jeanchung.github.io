@@ -1,11 +1,34 @@
 import React from 'react';
+import Intro from './Intro';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
 
-const Home = props => (
-  <div className="container">
-    <div className="page-header">
-      <h2 className="page-title">Hello, World!</h2>
+const Home = ({ openModal }) => (
+  <div>
+    <div className="section-one">
+      <div className="section-container">
+        <Intro />
+      </div>
     </div>
-    <p>Welcome to my personal website.</p>
+    <div className="section-two">
+      <div id="about" className="anchor" />
+      <div className="section-container">
+        <About />
+      </div>
+    </div>
+    <div className="section-three">
+      <div id="projects" className="anchor" />
+      <div className="section-container">
+        <Projects openModal={openModal} />
+      </div>
+    </div>
+    <div className="section-four">
+      <div id="contact" className="anchor" />
+      <div className="section-container">
+        <Contact />
+      </div>
+    </div>
   </div>
 );
 

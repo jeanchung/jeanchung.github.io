@@ -1,0 +1,11 @@
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  p {
+    font-size: 1.1em;
+  }
+}
