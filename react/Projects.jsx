@@ -5,8 +5,8 @@ import projects from '../projectData';
 
 const Projects = ({ openModal }) => (
   <div className="projects-container">
-    <h3 className="h2 section-title white">Projects</h3>
-    <div className="project-card-container clearfix mx2">
+    <h3 className="section-title white">Projects</h3>
+    <div className="project-card-container">
       {projects.map(project =>
         <ProjectCard
           {...project}

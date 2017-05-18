@@ -1,14 +1,13 @@
 .project-modal-container {
   padding: 0.5em 1em 0.8em 1em;
   display: flex;
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 .project-modal-content {
   padding: 0.5em 0 0 0;
   display: flex;
   flex-direction: column;
-  // justify-content: stretch;
 
   h3 {
     margin: 0 0 0.6em 0;
@@ -53,15 +52,31 @@
   padding: 1em 0;
 }
 
+.modal-header-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.6em;
+}
+
+.invisible-div {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.modal-title {
+  font-size: 1.5em;
+  margin: 0 !important;
+}
+
 .btn-modal-close {
   color: gray;
   font-weight: 100;
-  align-self: flex-end;
-  font-size: 2em;
-  position: absolute;
+  justify-content: center;
+  display: flex;
+  font-size: 1.6em;
   z-index: 100;
-  padding-top: 0.2em;
-  padding-right: 0.3em;
 }
 
 .project-modal-footer {

@@ -24,7 +24,7 @@ const modalStyles = {
     position: 'relative',
     width: '95vw',
     maxWidth: '30em',
-    height: '90vh',
+    maxHeight: '90vh',
     border: '1px solid rgba(0, 0, 0, .2)',
     background: '#fff',
     overflow: 'scroll',
@@ -45,10 +45,15 @@ const ProjectModal = ({ projectKey, onRequestClose }) => {
       effect={Effect.ScaleUp}
       style={modalStyles}
     >
-      <button className="btn btn-modal-close" onClick={ModalManager.close}>X</button>
       <div className="project-modal-container">
         <div className="project-modal-content">
-          <h3 className="h2 center green">{title}</h3>
+          <div className="modal-header-row">
+            <div className="invisible-div" />
+            <h3 className="modal-title green">{title}</h3>
+            <button className="btn btn-modal-close" onClick={ModalManager.close}>
+              <i className="fa fa-times" aria-hidden="true" />
+            </button>
+          </div>
           {
              videoEmbedUrl ?
                <div className="video">
