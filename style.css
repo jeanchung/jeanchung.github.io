@@ -327,8 +327,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1; }
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
 
 .project-modal-content {
   padding: 0.5em 0 0 0;
@@ -390,22 +390,20 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  background-color: yellow;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  padding-bottom: 0.6em; }
 
 .invisible-div {
   width: 1.2em;
-  height: 1.2em;
-  background: red; }
+  height: 1.2em; }
 
 .modal-title {
   font-size: 1.5em;
-  background: purple;
   margin: 0 !important; }
 
 .btn-modal-close {
@@ -417,9 +415,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 3em;
-  z-index: 100;
-  background: blue; }
+  font-size: 1.6em;
+  z-index: 100; }
 
 .project-modal-footer {
   background-color: #ffffff;

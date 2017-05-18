@@ -24,7 +24,7 @@ const modalStyles = {
     position: 'relative',
     width: '95vw',
     maxWidth: '30em',
-    height: '90vh',
+    maxHeight: '90vh',
     border: '1px solid rgba(0, 0, 0, .2)',
     background: '#fff',
     overflow: 'scroll',
@@ -51,7 +51,7 @@ const ProjectModal = ({ projectKey, onRequestClose }) => {
             <div className="invisible-div" />
             <h3 className="modal-title green">{title}</h3>
             <button className="btn btn-modal-close" onClick={ModalManager.close}>
-              x
+              <i className="fa fa-times" aria-hidden="true" />
             </button>
           </div>
           {
