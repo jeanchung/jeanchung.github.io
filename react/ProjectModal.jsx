@@ -45,10 +45,15 @@ const ProjectModal = ({ projectKey, onRequestClose }) => {
       effect={Effect.ScaleUp}
       style={modalStyles}
     >
-      <button className="btn btn-modal-close" onClick={ModalManager.close}>X</button>
       <div className="project-modal-container">
         <div className="project-modal-content">
-          <h3 className="h2 center green">{title}</h3>
+          <div className="modal-header-row">
+            <div className="invisible-div" />
+            <h3 className="modal-title green">{title}</h3>
+            <button className="btn btn-modal-close" onClick={ModalManager.close}>
+              x
+            </button>
+          </div>
           {
              videoEmbedUrl ?
                <div className="video">

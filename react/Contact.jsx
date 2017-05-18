@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = props => (
   <div>
-    <h3 className="h2 section-title white">Contact</h3>
+    <h3 className="section-title white">Contact</h3>
     <div className="contact-content">
       <div>
         <p>Email me at <a href="mailto:jc@jeanchung.io">

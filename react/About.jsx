@@ -2,15 +2,15 @@ import React from 'react';
 
 const About = props => (
   <div>
-    <h3 className="h2 section-title blue">About</h3>
+    <h3 className="section-title blue">About</h3>
     <div className="about-content">
       <div className="about-text">
-        <p>I love solving problems.</p>
+        <p>I love solving meaningful problems.</p>
         <p>After graduating from college, I spent four years in Washington, D.C. working on a
           problem I care about very much: our nation&#39;s
           broken <a href="http://www.sentencingproject.org/">criminal justice system</a>.</p>
         <p>
-          During that time, I began teaching myself to code in my spare time, attending free Python classes
+          In my spare time, I began teaching myself to code, attending free Python classes
           offered by <a href="http://hearmecode.com/">Hear Me Code</a>, working through Project Euler
           problems, and completing an online MIT computer science course.
         </p>

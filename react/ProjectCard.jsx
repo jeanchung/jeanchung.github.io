@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ title, summary, img, openModal }) => (
   <div className="project-card-wrapper">
@@ -8,7 +7,7 @@ const ProjectCard = ({ title, summary, img, openModal }) => (
         <img src={img} />
       </button>
       <div className="project-card-text">
-        <h4 className="h3 center">{title}</h4>
+        <h4 className="center-text">{title}</h4>
         <p>{summary}</p>
       </div>
     </div>

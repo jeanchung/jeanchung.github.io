@@ -4,7 +4,7 @@ import Scrollchor from 'react-scrollchor';
 const Navbar = ({ toggleMobileMenu, mobileMenuOpen }) => (
   <nav className="navbar">
     <div className="navbar-container">
-      <h1 className="h3 navbar-brand">
+      <h1 className="navbar-brand">
         <Scrollchor to="#top">Jean Chung</Scrollchor>
       </h1>
       <div className="navbar-menu">

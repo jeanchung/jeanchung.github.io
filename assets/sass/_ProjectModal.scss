@@ -53,15 +53,34 @@
   padding: 1em 0;
 }
 
+.modal-header-row {
+  display: flex;
+  width: 100%;
+  background-color: yellow;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invisible-div {
+  width: 1.2em;
+  height: 1.2em;
+  background: red;
+}
+
+.modal-title {
+  font-size: 1.5em;
+  background: purple;
+  margin: 0 !important;
+}
+
 .btn-modal-close {
   color: gray;
   font-weight: 100;
-  align-self: flex-end;
-  font-size: 2em;
-  position: absolute;
+  justify-content: center;
+  display: flex;
+  font-size: 3em;
   z-index: 100;
-  padding-top: 0.2em;
-  padding-right: 0.3em;
+  background: blue;
 }
 
 .project-modal-footer {
